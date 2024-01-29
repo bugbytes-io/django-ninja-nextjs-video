@@ -1,0 +1,15 @@
+POST http://localhost:8000/api/devices/
+Content-Type: application/json
+
+{
+    "name": "New Sensor",
+    "location_id": 2
+}
+
+###
+POST http://localhost:8000/api/devices/co2-sensor/set-location/
+Content-Type: application/json
+
+{
+    "location_id": 1
+}
